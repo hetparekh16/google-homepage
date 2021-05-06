@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#navbar{
+    display: flex;
+    justify-content: flex-end;
+    margin: auto 2rem;
+}
+#navbar ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+}
+#navbar ul li{
+    list-style: none;
+    padding: 1.5rem;
+}
+#navbar ul li:nth-child(3):hover{
+    background-color: rgba(243, 236, 236, 0);
+}
+#navbar ul #sign-in-li{
+    background-color: #4285f4;
+    border: 1px solid #4285f4;
+    border-radius: 0.2rem;
+    padding: 0.5rem;
+}
+#navbar ul li a{
+    font-size: 1.4rem;
+    color: rgba(0,0,0,0.87);
+    text-decoration: none;
+}
+#navbar ul #sign-in-li #sign-in-a{
+    color: white;
+    font-weight: bolder;
+    padding: 1.6rem 0.5rem !important;
+}
+#navbar ul #sign-in-li #sign-in-a:hover{
+    text-decoration: none;
+}
+#navbar ul li a:hover{
+    text-decoration: underline;
+}
+#center{
+    display: grid;
+    place-items: center;
+    padding: 2rem;
+    height: 100%;
+}
+#center #box{
+    border: 0.1rem solid rgba(0, 0, 0, 0.116);
+    border-radius: 3rem;
+    margin: 4rem;
+}
+#center #box input{
+    border: none;
+    width: 40vw;
+    outline: none;
+    font-size: 2rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    /* line-height: 2rem;
+    height: 2rem; */
+}
+#center #box span{
+    padding: 1.3rem;
+    color: rgba(0, 0, 0, 0.61);
+}
+.btns{
+    margin-bottom: 2rem;
+}
+.btns a{
+    text-decoration: none;
+    padding: 1.3rem;
+    font-size: 1.5rem;
+    margin: 2rem;
+    background: rgba(243, 236, 236, 0.137);;
+    border-radius: 0.5rem;
+    color: rgba(0, 0, 0, 0.548);
+}
+.btns a:hover{
+    border: 1px solid rgba(0, 0, 0, 0.199);
+    color: rgba(0, 0, 0, 0.548);
+}
+.caption{
+    margin: 2rem;
+}
+.caption small,.caption a{
+    font-size: 1.3rem;
+    margin:0.6rem;
+    text-decoration: none;
+}
+.caption a{
+    color: #1a0dab;
+}
+footer{
+    background: #f2f2f2;
+    width: 100vw;
+    position: absolute;
+    bottom: 0.1rem;
+    display: flex;
+    font-size: 1.4rem;
+    flex-direction: row;
+    justify-content: space-between;
+}
+footer div{
+    padding: 1.5rem;
+}
+footer div a{
+    padding: 1.5rem;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.61);
+}
+footer div a:hover{
+    text-decoration: underline;
+}
